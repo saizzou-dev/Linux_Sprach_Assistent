@@ -164,7 +164,7 @@ def antwort(sprach_daten):
         sicher = audio_aufnahme()
         time.sleep(2)
         if 'ja' in sicher:
-            os.system('reboot')
+            os.system('reboot now')
 
     elif there_exists(['katja fahr dem pc runter']):
         sicher = audio_aufnahme('Soll ich wirklich ein neustart machen?')
